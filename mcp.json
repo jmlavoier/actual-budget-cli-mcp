@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "actual-budget-cli-mcp": {
+      "type": "stdio",
+      "command": "/bin/zsh",
+      "args": ["${PLUGIN_ROOT}/start.zsh"],
+      "cwd": "${PLUGIN_ROOT}"
+    }
+  }
+}

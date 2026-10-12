@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "actual-budget-cli-mcp",
+  "version": "0.1.0",
+  "description": "Local MCP tools for the Actual Budget CLI",
+  "author": { "name": "Actual Budget workspace" },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Actual Budget CLI MCP",
+        "shortDescription": "Use Actual Budget locally",
+        "longDescription": "Read and update an Actual Budget through the installed Actual CLI.",
+        "developerName": "Actual Budget workspace",
+        "category": "Productivity",
+        "capabilities": ["Interactive"],
+        "defaultPrompt": "Use Actual CLI to help with my budget."
+      }
+    }
+  }
+}
