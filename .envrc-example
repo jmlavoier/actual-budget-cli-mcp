@@ -1,26 +1,27 @@
 # URL of the Actual sync server (required)
-ACTUAL_SERVER_URL=
+export ACTUAL_SERVER_URL=
 
 # Budget Sync ID (required for most commands)
-ACTUAL_SYNC_ID=
+export ACTUAL_SYNC_ID=
 
 # Server password (one of password or token required)
-ACTUAL_PASSWORD=
+export ACTUAL_PASSWORD=
 
+# Optional: uncomment only the settings you use.
 # Session token (alternative to password)
-ACTUAL_SESSION_TOKEN=
+# export ACTUAL_SESSION_TOKEN=
 
 # Local directory for cached budget data
-ACTUAL_DATA_DIR=
+# export ACTUAL_DATA_DIR=
 
 # Cache TTL in seconds (default: 60)
-ACTUAL_CACHE_TTL=
+# export ACTUAL_CACHE_TTL=
 
 # Budget-dir lock wait timeout in seconds (default: 10)
-ACTUAL_LOCK_TIMEOUT=
+# export ACTUAL_LOCK_TIMEOUT=
 
 # Set to 1 to disable budget-dir locking
-ACTUAL_NO_LOCK=
+# export ACTUAL_NO_LOCK=
 
 # Password for end-to-end encrypted budget files
-ACTUAL_ENCRYPTION_PASSWORD=
+# export ACTUAL_ENCRYPTION_PASSWORD=

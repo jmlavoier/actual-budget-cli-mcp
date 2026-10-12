@@ -3,8 +3,8 @@
   "mcpServers": {
     "actual-budget-cli-mcp": {
       "type": "stdio",
-      "command": "/bin/zsh",
-      "args": ["${PLUGIN_ROOT}/start.zsh"],
+      "command": "node",
+      "args": ["${PLUGIN_ROOT}/server.mjs"],
       "cwd": "${PLUGIN_ROOT}"
     }
   }
